@@ -4,26 +4,117 @@
   font-family: "Noto Serif", serif;
 }
 
+body {
+  background-color: ;
+}
+
 ul li {
   display: inline;
-  float: right;
-  justify-content: space-between;
-  width: 10rem;
-  height: 2rem;
-  position: relative;
-  top: 50px;
-  font-size: x-large;
 }
 
 ul li a {
+  display: inline;
   text-decoration: none;
   color: black;
+  float: right;
+  margin-left: 5rem;
+  position: relative;
+  top: 3.5rem;
+  right: 7rem;
+  font-size: x-large;
+}
+
+nav {
+  height: 9rem;
+}
+
+a:hover {
+  color: orange;
 }
 
 #logo {
   width: 9rem;
+  position: relative;
+  bottom: 5rem;
 }
 
-#navbarhorizontalrule {
-  border: 3px solid grey;
+hr {
+  border: 3px solid hsl(200, 3%, 39%);
+}
+
+img:first-of-type {
+  width: 50rem;
+  padding-top: 5rem;
+  position: relative;
+  left: 20rem;
+}
+
+#whitespace {
+  height: 10rem;
+}
+
+#waves {
+  height: 35rem;
+  width: 100%;
+  background-image: url(/images/wave.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 18rem;
+  right: 10rem;
+}
+
+h1 {
+  font-size: 7rem;
+  width: 29rem;
+}
+
+.image {
+  width: 88rem;
+  height: 20rem;
+}
+
+#skillset {
+  position: relative;
+  left: 22rem;
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.pic {
+  width: 80%;
+}
+
+.description {
+  position: relative;
+  top: -36rem;
+  left: 85rem;
+  bottom: 40rem;
+  width: 51rem;
+  height: 40rem;
+}
+
+#job-title {
+  text-decoration: underline;
+}
+
+.bio {
+  letter-spacing: 0.03rem;
+  font-style: italic;
+}
+
+button {
+  padding: 1rem;
+  width: 15rem;
+  background: black;
+  color: white;
+}
+
+#learnmore {
+  color: white;
+}
+
+#learnmore a:hover {
+  text-decoration: none;
+  color: orange;
 }
