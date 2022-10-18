@@ -70,8 +70,8 @@ h1 {
 }
 
 .image {
-  width: 88rem;
-  height: 20rem;
+  width: 174rem;
+  height: 45rem;
 }
 
 #skillset {
@@ -91,7 +91,7 @@ h1 {
   left: 85rem;
   bottom: 40rem;
   width: 51rem;
-  height: 40rem;
+  height: 36rem;
 }
 
 #job-title {
@@ -117,4 +117,12 @@ button {
 #learnmore a:hover {
   text-decoration: none;
   color: orange;
+}
+
+.skills {
+  position: relative;
+  top: 15rem;
+  right: 84rem;
+  height: 20rem;
+  width: 172.5rem;
 }
